@@ -1,0 +1,82 @@
+.body {
+  background-color: #071c32;
+  color: white;
+  font-family: Roboto, sans-serif;
+  user-select: none;
+  overflow-x: hidden;
+}
+
+.center-content {
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.nav-link {
+  border: 0.5px solid #8b4513 !important;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  background-color: whitesmoke;
+  border: none !important;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.my-image {
+  aspect-ratio: 0.85;
+  align-self: stretch;
+  border-radius: 50% 50% 50% 50% / 50% 0% 50% 0%;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.name {
+  font-size: 45px;
+}
+
+.introduction {
+  font-size: 20px;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /*clip-path: polygon(
+    15% 0%,
+    85% 0%,
+    100% 15%,
+    100% 85%,
+    85% 100%,
+    15% 100%,
+    0% 85%,
+    0% 15%
+  );*/
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.pl {
+  aspect-ratio: 0.85;
+  align-self: stretch;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 70px;
+  margin-right: 2rem;
+}
+
+.title-my-skills,
+.subtitles-my-skills {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #8b4513;
+  text-underline-offset: 7px;
+}
