@@ -23,9 +23,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body class="body">
-    <div class="row m-1 p-1" style="border: 1px solid red">
+  <body class="body" xyz="fade stagger-rev-1">
+    <div class="row m-1 p-1 xyz-in" style="border: 1px solid red">
       <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-1">
         <ul class="nav justify-content-center">
           <li class="nav-item m-1">
@@ -38,8 +40,13 @@
             >
           </li>
           <li class="nav-item m-1">
-            <a class="nav-link text-white bi bi-code-slash" href="#">
-              My Skills</a
+            <a class="nav-link text-white bi bi-code-slash" href="#skills">
+              Skills</a
+            >
+          </li>
+          <li class="nav-item m-1">
+            <a class="nav-link text-white bi bi-award" href="#accolades">
+              Accolades</a
             >
           </li>
           <li class="nav-item m-1">
@@ -58,7 +65,7 @@
         </ul>
       </div>
     </div>
-    <div class="row m-1 p-4" style="border: 1px solid red">
+    <div class="row m-1 p-4 xyz-in" style="border: 1px solid red">
       <div
         class="col-sm-12 col-md-12 col-lg-5 col-xl-4 p-1 center-content d-flex"
         style="border: 1px solid yellow"
@@ -89,13 +96,13 @@
         </div>
       </div>
     </div>
-    <div class="row m-1 p-4" style="border: 1px solid red">
+    <div id="skills" class="row m-1 p-4 xyz-in" style="border: 1px solid red">
       <div
         class="col-sm-12 col-md col-lg-12 col-xl-12 p-1"
         style="border: 1px solid yellow"
       >
         <div class="row m-1 p-1" style="border: 1px solid red">
-          <h4 class="title-my-skills text-center">MY SKILLS</h4>
+          <h4 class="title-my-skills text-center">SKILLS</h4>
         </div>
         <div class="row m-1 p-1" style="border: 1px solid red">
           <div
@@ -104,14 +111,14 @@
           >
             <div class="glassmorphism text-center p-1">
               <h5 class="subtitles-my-skills">PROGRAMMING SKILLS</h5>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/c++.png"
                   class="figure-img img-fluid rounded"
                 />
                 <figcaption class="figure-caption text-white">C++</figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/python.png"
                   class="figure-img img-fluid rounded"
@@ -120,14 +127,14 @@
                   Python
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/java.png"
                   class="figure-img img-fluid rounded"
                 />
                 <figcaption class="figure-caption text-white">Java</figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/kotlin.png"
                   class="figure-img img-fluid rounded"
@@ -136,21 +143,21 @@
                   Kotlin
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/html5.png"
                   class="figure-img img-fluid rounded"
                 />
                 <figcaption class="figure-caption text-white">HTML5</figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/css.png"
                   class="figure-img img-fluid rounded"
                 />
                 <figcaption class="figure-caption text-white">CSS</figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/javascript.png"
                   class="figure-img img-fluid rounded"
@@ -159,7 +166,7 @@
                   JavaScript
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/php.png"
                   class="figure-img img-fluid rounded"
@@ -174,7 +181,7 @@
           >
             <div class="glassmorphism text-center p-1">
               <h5 class="subtitles-my-skills">EMPLOYABILITY SKILLS</h5>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/adaptability.png"
                   class="figure-img img-fluid rounded"
@@ -183,7 +190,7 @@
                   Adaptability
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/crititcal_thinking.png"
                   class="figure-img img-fluid rounded"
@@ -192,7 +199,7 @@
                   Crititcal Thinking
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/leadership.png"
                   class="figure-img img-fluid rounded"
@@ -201,7 +208,7 @@
                   Leadership
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/optimist.png"
                   class="figure-img img-fluid rounded"
@@ -210,7 +217,7 @@
                   Optimist
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/resilience.png"
                   class="figure-img img-fluid rounded"
@@ -219,7 +226,7 @@
                   Resilience
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/teamwork.png"
                   class="figure-img img-fluid rounded"
@@ -228,7 +235,7 @@
                   Teamwork
                 </figcaption>
               </figure>
-              <figure class="figure m-3">
+              <figure class="figure m-3" data-aos="zoom-in">
                 <img
                   src="Images/time_management.png"
                   class="figure-img img-fluid rounded"
@@ -237,6 +244,82 @@
                   Time Management
                 </figcaption>
               </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="accolades"
+      class="row m-1 p-4 xyz-in"
+      style="border: 1px solid red"
+    >
+      <div
+        class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-1"
+        style="border: 1px solid yellow"
+      >
+        <div class="row m-1 p-1" style="border: 1px solid red">
+          <h4 class="title-my-skills text-center">ACCOLADES</h4>
+        </div>
+        <div class="row m-1 p-1 text-center" style="border: 1px solid red">
+          <div
+            class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-1 center-content d-flex"
+            style="border: 1px solid yellow"
+          >
+            <div
+              class="card"
+              data-aos="flip-right"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <img
+                src="Images/accolade_one_minimized.png"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-1 center-content d-flex"
+            style="border: 1px solid yellow"
+          >
+            <div
+              class="card"
+              data-aos="flip-right"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <img src="Images/accolade_two.png" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-1 center-content d-flex"
+            style="border: 1px solid yellow"
+          >
+            <div
+              class="card"
+              data-aos="flip-right"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <img src="Images/accolade_two.png" class="card-img-top" />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -266,4 +349,8 @@
     });
   </script>
   <script src="Javascript/type.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
