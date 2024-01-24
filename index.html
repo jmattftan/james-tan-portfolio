@@ -34,7 +34,7 @@
             <a
               class="nav-link text-white bi bi-person active"
               aria-current="page"
-              href="#"
+              href="#about_me"
             >
               About Me</a
             >
@@ -50,7 +50,7 @@
             >
           </li>
           <li class="nav-item m-1">
-            <a class="nav-link text-white bi bi-telephone" href="#">
+            <a class="nav-link text-white bi bi-telephone" href="#contact_me">
               Contact Me</a
             >
           </li>
@@ -65,7 +65,7 @@
         </ul>
       </div>
     </div>
-    <div class="row m-1 p-4 xyz-in" style="border: 1px solid red">
+    <div id="about_me" class="row m-1 p-4 xyz-in" style="border: 1px solid red">
       <div
         class="col-sm-12 col-md-12 col-lg-5 col-xl-4 p-1 center-content d-flex"
         style="border: 1px solid yellow"
@@ -261,7 +261,7 @@
         <div class="row m-1 p-1" style="border: 1px solid red">
           <h4 class="title-my-skills text-center">ACCOLADES</h4>
         </div>
-        <div class="row m-1 p-1 text-center" style="border: 1px solid red">
+        <div class="row m-1 p-1" style="border: 1px solid red">
           <div
             class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-1 center-content d-flex"
             style="border: 1px solid yellow"
@@ -278,7 +278,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  Best Project Presentation in Methods of Research
+                  <b>Best Project Presentation in Methods of Research</b>
                 </h5>
                 <p class="card-text">Project Leader</p>
               </div>
@@ -296,7 +296,7 @@
             >
               <img src="Images/accolade_two.png" class="card-img-top" />
               <div class="card-body">
-                <h5 class="card-title">IoT Huawei Certification</h5>
+                <h5 class="card-title"><b>IoT Huawei Certification</b></h5>
                 <p class="card-text">Valid Until December 12, 2025</p>
               </div>
             </div>
@@ -314,10 +314,152 @@
               <img src="Images/accolade_two.png" class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">
-                  UE Automation, Robotics, and Mechatronics Society
+                  <b>UE Automation, Robotics, and Mechatronics Society</b>
                 </h5>
                 <p class="card-text">Vice President Internal</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="contact_me"
+      class="row m-1 p-4 xyz-in"
+      style="border: 1px solid red"
+    >
+      <div
+        class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-1"
+        style="border: 1px solid yellow"
+      >
+        <div class="row m-1 p-1" style="border: 1px solid red">
+          <h4 class="title-my-skills text-center">CONTACT ME</h4>
+        </div>
+        <div class="row m-1 p-1" style="border: 1px solid red">
+          <div
+            class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-1 center-content d-flex"
+            style="border: 1px solid yellow"
+          >
+            <div class="p-1" style="border: 1px solid green">
+              <div
+                class="input-group mt-4 mb-4"
+                data-aos="fade-left"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                <span
+                  class="input-group-text social-icons phone-number bi bi-telephone"
+                ></span>
+                <button
+                  id="reveal"
+                  class="socials phone-number"
+                  onmouseover="reveal_number()"
+                >
+                  Phone Number
+                </button>
+              </div>
+              <div
+                class="input-group mb-4"
+                data-aos="fade-right"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                <span
+                  class="input-group-text social-icons google-mail bi bi-google"
+                ></span>
+
+                <button class="socials google-mail" onclick="gmail()">
+                  Google Mail
+                </button>
+              </div>
+              <div
+                class="input-group mb-4"
+                data-aos="fade-left"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                <span
+                  class="input-group-text social-icons facebook bi bi-facebook"
+                ></span>
+                <button class="socials facebook" onclick="facebook()">
+                  Facebook
+                </button>
+              </div>
+              <div
+                class="input-group mb-4"
+                data-aos="fade-right"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
+                <span
+                  class="input-group-text social-icons messenger bi bi-messenger"
+                ></span>
+                <button class="socials messenger" onclick="messenger()">
+                  Messenger
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-1"
+            style="border: 1px solid yellow"
+          >
+            <div
+              class="glassmorphism p-4"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
+              <form id="form" method="POST">
+                <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id=""
+                    name="full_name"
+                    placeholder="Enter full name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id=""
+                    name="email"
+                    placeholder="Enter email (ex: name@example.com)"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id=""
+                    name="message"
+                    placeholder="Type a message..."
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://jmattftan.github.io/james-tan-portfolio/"
+                />
+                <input type="hidden" name="_captcha" value="false" />
+                <div class="text-end">
+                  <button
+                    type="submit"
+                    onclick="form_action()"
+                    class="btn btn-outline-dark send-button text-white bi bi-send"
+                  >
+                    Send
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -350,5 +492,34 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+    function gmail() {
+      link =
+        "https://mail.google.com/mail/?view=cm&fs=1&to=jamesmatthewftan@gmail.com";
+      window.open(link, "_blank");
+    }
+    function facebook() {
+      link = "https://www.facebook.com/61555167302570";
+      window.open(link, "_blank");
+    }
+    function messenger() {
+      link = "https://www.messenger.com/t/61555167302570";
+      window.open(link, "_blank");
+    }
+  </script>
+  <script>
+    function form_action() {
+      var form_action = "https://formsubmit.co/jamesmatthewftan@gmail.com";
+      document.getElementById("form").action = form_action;
+    }
+  </script>
+  <script>
+    function reveal_number() {
+      var phone_number = "(+63) 977-097-1992";
+      var button = document.getElementById("reveal");
+      button.innerHTML = phone_number;
+      button.classList.add("xyz-in");
+    }
   </script>
 </html>
