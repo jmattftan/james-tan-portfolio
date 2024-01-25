@@ -92,10 +92,170 @@
   text-align: left;
 }
 
+@media screen and (max-width: 1419px) {
+  .card-title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1401px) {
+  .card-title {
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (max-width: 1369px) {
+  .card-title {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1337px) {
+  .card-title {
+    font-size: 16.5px;
+  }
+}
+
+@media screen and (max-width: 1305px) {
+  .card-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1273px) {
+  .card-title {
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (max-width: 1241px) {
+  .card-title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1209px) {
+  .card-title {
+    font-size: 14.5px;
+  }
+}
+
+@media screen and (max-width: 1177px) {
+  .card-title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .card-title {
+    font-size: 13.5px;
+  }
+}
+
+@media screen and (max-width: 1113px) {
+  .card-title {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .card-title {
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 1049px) {
+  .card-title {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1017px) {
+  .card-title {
+    font-size: 11.5px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .card-title {
+    font-size: 18px;
+  }
+}
+
 .list {
   background-color: #8b4513 !important;
   border-bottom: 1px solid grey !important;
   color: white !important;
+}
+
+@media screen and (max-width: 1322px) {
+  .card-text,
+  .list {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .card-text,
+  .list {
+    font-size: 14.5px;
+  }
+}
+
+@media screen and (max-width: 1221px) {
+  .card-text,
+  .list {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1188px) {
+  .card-text,
+  .list {
+    font-size: 13.5px;
+  }
+}
+
+@media screen and (max-width: 1154px) {
+  .card-text,
+  .list {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1121px) {
+  .card-text,
+  .list {
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .card-text,
+  .list {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1054px) {
+  .card-text,
+  .list {
+    font-size: 11.5px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .card-text,
+  .list {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .card-text,
+  .list {
+    font-size: 15px;
+  }
 }
 
 .form-control::placeholder {
@@ -112,23 +272,301 @@
   border-left: 1px solid #000000;
 }
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 476px) {
+  .socials {
+    width: 24.5rem;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .socials {
+    width: 24rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .socials {
+    width: 23.5rem;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .socials {
+    width: 23rem;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .socials {
+    width: 22.5rem;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .socials {
+    width: 22rem;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .socials {
+    width: 21.5rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .socials {
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .socials {
+    width: 20.5rem;
+  }
+}
+
+@media screen and (max-width: 404px) {
+  .socials {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .socials {
+    width: 19.5rem;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .socials {
+    width: 19rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .socials {
+    width: 18.5rem;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .socials {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .socials {
+    width: 17.5rem;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .socials {
+    width: 17rem;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .socials {
+    width: 16.5rem;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .socials {
+    width: 16rem;
+  }
+}
+
+@media screen and (max-width: 333px) {
+  .socials {
+    width: 15.5rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .socials {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 317px) {
+  .socials {
+    width: 14.5rem;
+  }
+}
+
+@media screen and (max-width: 309px) {
+  .socials {
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 301px) {
+  .socials {
+    width: 13.5rem;
+  }
+}
+
+@media screen and (max-width: 293px) {
+  .socials {
+    width: 13rem;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .socials {
+    width: 12.5rem;
+  }
+}
+
+@media screen and (max-width: 277px) {
   .socials {
     width: 12rem;
   }
 }
 
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 268px) {
+  .socials {
+    width: 11.5rem;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .socials {
+    width: 11rem;
+  }
+}
+
+@media screen and (max-width: 252px) {
+  .socials {
+    width: 10.5rem;
+  }
+}
+
+@media screen and (max-width: 244px) {
+  .socials {
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 236px) {
+  .socials {
+    width: 9.5rem;
+  }
+}
+
+@media screen and (max-width: 228px) {
+  .socials {
+    width: 9rem;
+  }
+}
+
+@media screen and (max-width: 220px) {
+  .socials {
+    width: 8.5rem;
+  }
+}
+
+@media screen and (max-width: 212px) {
+  .socials {
+    width: 8rem;
+  }
+}
+
+@media screen and (max-width: 204px) {
+  .socials {
+    width: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 196px) {
   .socials {
     width: 7rem;
   }
 }
 
-@media screen and (max-width: 264px) {
+@media screen and (max-width: 188px) {
+  .socials {
+    width: 6.5rem;
+  }
+}
+
+@media screen and (max-width: 180px) {
   .socials {
     width: 6rem;
   }
 }
+
+@media screen and (max-width: 172px) {
+  .socials {
+    width: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 164px) {
+  .socials {
+    width: 5rem;
+  }
+}
+
+@media screen and (max-width: 156px) {
+  .socials {
+    width: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 148px) {
+  .socials {
+    width: 4rem;
+  }
+}
+
+@media screen and (max-width: 140px) {
+  .socials {
+    width: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 132px) {
+  .socials {
+    width: 3rem;
+  }
+}
+
+@media screen and (max-width: 124px) {
+  .socials {
+    width: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 116px) {
+  .socials {
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 108px) {
+  .socials {
+    width: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 100px) {
+  .socials {
+    width: 1rem;
+  }
+}
+
+@media screen and (max-width: 92px) {
+  .socials {
+    width: 0.5rem;
+  }
+}
+
+/* Continue with more media queries as needed */
 
 .social-icons {
   border: none !important;
