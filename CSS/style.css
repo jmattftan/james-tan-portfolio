@@ -85,10 +85,17 @@
   background-color: #8b4513 !important;
   border: 1px solid none !important;
   border-radius: 10px !important;
+  border-top: 1px solid grey !important;
   color: #ffffff !important;
-  height: 25rem !important;
-  width: 20rem !important;
+  /*height: 25rem !important;
+  width: 20rem !important;*/
   text-align: left;
+}
+
+.list {
+  background-color: #8b4513 !important;
+  border-bottom: 1px solid grey !important;
+  color: white !important;
 }
 
 .form-control::placeholder {
