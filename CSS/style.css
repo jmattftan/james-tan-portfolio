@@ -85,11 +85,16 @@
   background-color: #8b4513 !important;
   border: 1px solid none !important;
   border-radius: 10px !important;
-  border-top: 1px solid #808080 !important;
   color: #ffffff !important;
   /*height: 25rem !important;
   width: 20rem !important;*/
   text-align: left;
+}
+
+.card-img-top {
+  border: 1px solid #8b4513 !important;
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
 }
 
 @media screen and (max-width: 1419px) {
